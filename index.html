@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Primer Sitio Web — Guía + Proyecto Biblioteca</title>
+  <meta name="description" content="Aprende desarrollo web con un proyecto real. Guía completa + código fuente descargable. Solo HTML y CSS.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================================================
+       NAVBAR
+       ================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <i class="fas fa-book-open"></i>
+      Programación Web Aplicada
+    </div>
+    <a href="#precio" class="nav-cta">
+      <i class="fas fa-bolt"></i> Quiero el proyecto — $20
+    </a>
+  </nav>
+
+  <!-- ================================================
+       HERO
+       ================================================ -->
+  <section class="hero" id="inicio">
+
+    <span class="hero-badge">
+      <i class="fas fa-graduation-cap"></i>
+      Proyecto real listo para entregar o adaptar a lo que necesites
+    </span>
+
+    <h1 class="hero-titulo">
+      Tu primer sitio web,<br>
+      <span>de cero a entregado.</span>
+    </h1>
+
+    <p class="hero-sub">
+      La guía que te da claridad desde el primer paso.
+      Código real. Resultado real. Escrito desde la experiencia, no desde la teoría.
+    </p>
+
+    <div class="precio-wrap">
+      <span class="precio-antes">ANTES $50</span>
+      <div>
+        <div class="precio-ahora"><sup> $</sup>20</div>
+      </div>
+    </div>
+    <p class="precio-detalle">Pago único · Acceso de por vida · Descarga inmediata</p>
+
+    <a href="#precio" class="btn-hero float">
+      <i class="fas fa-download"></i>
+      Quiero la guía + el proyecto
+    </a></br>
+
+    <div class="hero-bottom-imagen">
+        <img src="img/portada.png" alt="Guía Tu Primer Sitio Web - Proyecto Biblioteca">
+      </div>
+
+    <p class="hero-garantia">
+      <i class="fas fa-shield-alt"></i>
+      Sin suscripciones. Sin renovaciones. Tuyo para siempre.
+    </p>
+
+    <div class="hero-estrellas">
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i><i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <span style="color:var(--blanco-dim)">Proyecto calificado como Excelente</span>
+    </div>
+
+
+  </section>
+
+  <!-- ================================================
+       RESULTADO REAL
+       ================================================ -->
+  </br>
+  </br>
+  </br>
+  </br>
+  <div class="resultado-real">
+    <div class="resultado-card reveal">
+      <div class="resultado-item">
+        <div class="resultado-num" data-meta="100" data-suf="%">0</div>
+        <div class="resultado-label">GUÍA + PROYECTO GARANTIZADO</div>
+      </div>
+      <div class="resultado-divider"></div>
+      <div class="resultado-item">
+        <div class="resultado-num" data-meta="5" data-suf=" páginas">0</div>
+        <div class="resultado-label">Páginas HTML incluidas</div>
+      </div>
+      <div class="resultado-divider"></div>
+      <div class="resultado-item">
+        <div class="resultado-num" data-meta="12" data-suf=" caps.">0</div>
+        <div class="resultado-label">Capítulos en la guía</div>
+      </div>
+      <div class="resultado-divider"></div>
+      <div class="resultado-item">
+        <div class="resultado-num" data-meta="100" data-suf="% CSS">0</div>
+        <div class="resultado-label">Sin JavaScript requerido</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================
+       VIDEO DEL PRODUCTO
+       ================================================ -->
+  <section class="seccion-video" id="video">
+    <div class="seccion-label reveal">
+      <i class="fas fa-play-circle"></i> Mira el proyecto en acción
+    </div>
+    <h2 class="seccion-titulo reveal delay-1">
+      Así se ve el sitio web<br>que recibirás
+    </h2>
+    <p class="seccion-sub reveal delay-2">
+      Un recorrido completo por las 5 páginas, el diseño responsive
+      y todo lo que incluye la guía.
+    </p>
+
+
+    <div class="video-wrapper reveal delay-3">
+      <div class="video-marco">
+        <div class="video-topbar">
+          <span class="dot dot-r"></span>
+          <span class="dot dot-y"></span>
+          <span class="dot dot-g"></span>
+          <span class="video-topbar-title">
+            sitio-web-biblioteca · Vista previa del producto
+          </span>
+        </div>
+        <!--
+          ╔══════════════════════════════════════════════════════╗
+          ║  INSTRUCCIÓN PARA ACTIVAR TU VIDEO:                 ║
+          ║                                                      ║
+          ║  1. Sube tu video a YouTube (no listado o público).  ║
+          ║  2. Copia el ID del video de YouTube.                ║
+          ║     Ejemplo: https://youtu.be/ABC123  →  ID: ABC123 ║
+          ║  3. En el div .video-container de abajo,             ║
+          ║     reemplaza el atributo data-video con:            ║
+          ║     data-video="https://www.youtube.com/embed/ABC123"║
+          ║                                                      ║
+          ║  El video se cargará al hacer clic en el botón ▶     ║
+          ╚══════════════════════════════════════════════════════╝
+        -->
+       <div class="video-container">
+  <video controls preload="metadata" poster="img/captura-inicio.jpg">
+    <source src="video/presentaciondelproyecto.mp4" type="video/mp4">
+  </video>
+</div>
+</div>
+</div>
+</section>
+  <!-- ================================================
+       QUÉ INCLUYE
+       ================================================ -->
+  <section class="seccion-incluye" id="incluye">
+    <div style="max-width:1100px;margin:0 auto;text-align:center;">
+      <div class="seccion-label reveal">Contenido del paquete</div>
+      <h2 class="seccion-titulo reveal delay-1">
+        Todo lo que recibes<br>por <span style="color:var(--dorado)">$20</span>
+      </h2>
+      <p class="seccion-sub reveal delay-2">
+        No solo el código. Recibes la explicación de por qué funciona.
+      </p>
+    </div>
+
+    <div class="incluye-grid" style="max-width:1100px;margin:3.5rem auto 0">
+
+      <!-- PRODUCTO 1: EL PROYECTO -->
+      <div class="incluye-card reveal-left delay-1">
+        <div class="incluye-icono">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Código fuente completo</h3>
+        <p>
+          El proyecto real que en su momento desarrolle en la universidad y obtuve 10/10.
+          Listo para descargar, abrir en VS Code y adaptar a tu tarea.
+        </p>
+        <ul class="incluye-lista">
+          <li><i class="fas fa-check-circle"></i> 5 páginas HTML semánticas completas</li>
+          <li><i class="fas fa-check-circle"></i> 1 archivo CSS profesional con variables y comentarios</li>
+          <li><i class="fas fa-check-circle"></i> Diseño responsive (funciona en móvil y escritorio)</li>
+          <li><i class="fas fa-check-circle"></i> Menú con hover y subrayado animado (CSS puro)</li>
+          <li><i class="fas fa-check-circle"></i> Formulario con confirmación sin JavaScript</li>
+          <li><i class="fas fa-check-circle"></i> Flexbox + Grid implementados</li>
+          <li><i class="fas fa-check-circle"></i> Google Fonts + Font Awesome integrados</li>
+          <li><i class="fas fa-check-circle"></i> Estructura de carpetas limpia: css/, img/, HTML</li>
+        </ul>
+        <span class="incluye-tag"><i class="fas fa-download"></i> Descarga inmediata en .zip</span>
+      </div>
+
+      <!-- PRODUCTO 2: EL EBOOK -->
+      <div class="incluye-card reveal-right delay-2">
+        <div class="incluye-icono">
+          <i class="fas fa-book-open"></i>
+        </div>
+        <h3>Guía / Ebook completo</h3>
+        <p>
+          12 capítulos que explican qué hace cada línea del proyecto,
+          por qué funciona y cómo adaptarlo a tu propia idea.
+        </p>
+        <ul class="incluye-lista">
+          <li><i class="fas fa-check-circle"></i> Conceptos base: HTML, CSS, VS Code, Google Fonts</li>
+          <li><i class="fas fa-check-circle"></i> Diferencia entre sitio estático y aplicación web</li>
+          <li><i class="fas fa-check-circle"></i> El CSS del proyecto explicado línea por línea</li>
+          <li><i class="fas fa-check-circle"></i> Atajos y trucos de VS Code para trabajar rápido</li>
+          <li><i class="fas fa-check-circle"></i> 7 ideas para adaptar el proyecto a otra temática</li>
+          <li><i class="fas fa-check-circle"></i> Cómo instalar, abrir y personalizar el proyecto</li>
+          <li><i class="fas fa-check-circle"></i> Introducción a GitHub (subir tu proyecto en línea)</li>
+          <li><i class="fas fa-check-circle"></i> Checklist completo antes de entregar</li>
+        </ul>
+        <span class="incluye-tag"><i class="fas fa-file-alt"></i> Formato .pdf descargable</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================
+       PARA QUIÉN ES
+       ================================================ -->
+  <section class="seccion-para-quien" id="para-quien">
+    <div style="text-align:center;">
+      <div class="seccion-label reveal">¿Es para mí?</div>
+      <h2 class="seccion-titulo reveal delay-1">Este paquete es para ti si...</h2>
+    </div>
+    <div class="para-quien-grid">
+      <div class="para-quien-item reveal delay-1">
+        <div class="pq-check"><i class="fas fa-check"></i></div>
+        <p>Tienes que entregar un sitio web en la universidad y no sabes por dónde empezar.</p>
+      </div>
+      <div class="para-quien-item reveal delay-2">
+        <div class="pq-check"><i class="fas fa-check"></i></div>
+        <p>Tu docente pide HTML, CSS, diseño responsive y buenas prácticas.</p>
+      </div>
+      <div class="para-quien-item reveal delay-3">
+        <div class="pq-check"><i class="fas fa-check"></i></div>
+        <p>Buscaste en YouTube horas y el proyecto no funciona o el video queda a medias.</p>
+      </div>
+      <div class="para-quien-item reveal delay-1">
+        <div class="pq-check"><i class="fas fa-check"></i></div>
+        <p>Quieres entender qué hace el código, no solo copiarlo y pegarlo.</p>
+      </div>
+      <div class="para-quien-item reveal delay-2">
+        <div class="pq-check"><i class="fas fa-check"></i></div>
+        <p>Eres principiante y necesitas una base sólida y visual para arrancar.</p>
+      </div>
+      <div class="para-quien-item reveal delay-3">
+        <div class="pq-check"><i class="fas fa-check"></i></div>
+        <p>Quieres un proyecto listo que puedas adaptar a cualquier temática.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       PREVIEW DEL PROYECTO
+       ================================================ -->
+  <section class="seccion-preview" id="preview">
+    <div class="seccion-label reveal">Vista previa</div>
+    <h2 class="seccion-titulo reveal delay-1">
+      Las 5 páginas del proyecto
+    </h2>
+    <p class="seccion-sub reveal delay-2">
+      Cada página tiene su diseño cuidado. Responsive y profesional.
+    </p>
+
+    <div class="preview-grid">
+
+      <div class="preview-item reveal delay-1">
+        <!--
+          INSTRUCCIÓN: Reemplaza las etiquetas de placeholder con:
+          <img src="img/captura-inicio.jpg" alt="Página de inicio">
+          Guarda las capturas de pantalla de tu proyecto en la carpeta img/
+        -->
+        <div class="preview-placeholder">
+          <i class="fas fa-home"></i>
+          <strong>index.html</strong>
+          <span>Inicio · Hero · Features · Estadísticas</span>
+          <small style="color:var(--verde-cla);margin-top:0.3rem">
+            Añade tu captura en img/captura-inicio.jpg
+          </small>
+        </div>
+        <div class="preview-overlay"><span>Página de Inicio</span></div>
+      </div>
+
+      <div class="preview-item reveal delay-2">
+        <div class="preview-placeholder">
+          <i class="fas fa-book"></i>
+          <strong>catalogo.html</strong>
+          <span>Grid de tarjetas · Categorías · Imágenes</span>
+          <small style="color:var(--verde-cla);margin-top:0.3rem">
+            Añade tu captura en img/captura-catalogo.jpg
+          </small>
+        </div>
+        <div class="preview-overlay"><span>Catálogo de libros</span></div>
+      </div>
+
+      <div class="preview-item reveal delay-3">
+        <div class="preview-placeholder">
+          <i class="fas fa-concierge-bell"></i>
+          <strong>servicios.html</strong>
+          <span>Tabla de servicios · Precios · Requisitos</span>
+          <small style="color:var(--verde-cla);margin-top:0.3rem">
+            Añade tu captura en img/captura-servicios.jpg
+          </small>
+        </div>
+        <div class="preview-overlay"><span>Servicios</span></div>
+      </div>
+
+      <div class="preview-item reveal delay-1">
+        <div class="preview-placeholder">
+          <i class="fas fa-calendar-alt"></i>
+          <strong>eventos.html</strong>
+          <span>Actividades · Talleres · Tarjetas</span>
+          <small style="color:var(--verde-cla);margin-top:0.3rem">
+            Añade tu captura en img/captura-eventos.jpg
+          </small>
+        </div>
+        <div class="preview-overlay"><span>Eventos y Actividades</span></div>
+      </div>
+
+      <div class="preview-item reveal delay-2">
+        <div class="preview-placeholder">
+          <i class="fas fa-envelope"></i>
+          <strong>contacto.html</strong>
+          <span>Formulario · Validación CSS · Confirmación</span>
+          <small style="color:var(--verde-cla);margin-top:0.3rem">
+            Añade tu captura en img/captura-contacto.jpg
+          </small>
+        </div>
+        <div class="preview-overlay"><span>Formulario de Contacto</span></div>
+      </div>
+
+      <div class="preview-item reveal delay-3"
+           style="background:linear-gradient(135deg,rgba(45,90,27,0.15),rgba(201,162,39,0.1));border-color:rgba(201,162,39,0.2);">
+        <div class="preview-placeholder" style="gap:1rem">
+          <i class="fas fa-mobile-alt" style="font-size:2.5rem;color:var(--dorado)"></i>
+          <strong style="color:var(--dorado)">100% Responsive</strong>
+          <span>Se adapta a cualquier tamaño de pantalla sin alterar su estructura</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================
+       TEMARIO DE LA GUÍA
+       ================================================ -->
+  <section class="seccion-temario" id="temario">
+    <div style="text-align:center;">
+      <div class="seccion-label reveal">Lo que aprenderás</div>
+      <h2 class="seccion-titulo reveal delay-1">12 capítulos de guía real</h2>
+      <p class="seccion-sub reveal delay-2">
+        Cada capítulo usa código real del proyecto, no ejemplos inventados.
+      </p>
+    </div>
+    <div class="temario-wrap">
+      <div class="temario-item reveal delay-1">
+        <span class="temario-num">01</span>
+        <span class="temario-texto">Conceptos base: HTML, CSS, VS Code, Google Fonts y Font Awesome</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-1">
+        <span class="temario-num">02</span>
+        <span class="temario-texto">Tu entorno: instalar y configurar VS Code + Live Server</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-1">
+        <span class="temario-num">03</span>
+        <span class="temario-texto">Página web estática vs. aplicación web (lo que piden en la U)</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-2">
+        <span class="temario-num">04</span>
+        <span class="temario-texto">Estructura del proyecto: carpetas, archivos y organización</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-2">
+        <span class="temario-num">05</span>
+        <span class="temario-texto">El HTML del proyecto explicado página por página</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-2">
+        <span class="temario-num">06</span>
+        <span class="temario-texto">El CSS explicado sección por sección con código real</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-3">
+        <span class="temario-num">07</span>
+        <span class="temario-texto">Buenas prácticas que convirtieron esto en un 10/10</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-3">
+        <span class="temario-num">08</span>
+        <span class="temario-texto">Trucos y atajos en VS Code: autoguardado, búsqueda global y más</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-3">
+        <span class="temario-num">09</span>
+        <span class="temario-texto">7 ideas para adaptar el proyecto: turismo, blog, restaurante y más</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-4">
+        <span class="temario-num">10</span>
+        <span class="temario-texto">Cómo descomprimir, abrir y personalizar el proyecto paso a paso</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-4">
+        <span class="temario-num">11</span>
+        <span class="temario-texto">GitHub: sube tu proyecto al mundo y crea tu portafolio</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+      <div class="temario-item reveal delay-4">
+        <span class="temario-num">12</span>
+        <span class="temario-texto">Checklist completo de entrega — cero errores garantizados</span>
+        <i class="fas fa-check-circle check"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       PRECIO FINAL — CTA PRINCIPAL
+       ================================================ -->
+       
+  <section class="seccion-precio" id="precio">
+    <div class="seccion-label reveal">Acceso completo</div>
+    <h2 class="seccion-titulo reveal delay-1" style="margin-bottom:3rem">
+      Un solo pago.<br>Tuyo para siempre.
+    </h2>
+
+    <div class="precio-card reveal delay-2">
+      <span class="precio-card-badge">
+        <i class="fas fa-bolt"></i> Oferta de lanzamiento
+      </span>
+      <h2>Guía + Proyecto Completo</h2>
+      <p>Todo lo que necesitas para entregar tu sitio web con confianza.</p>
+
+      <div class="precio-display">
+        <div class="precio-original">Precio normal: $50</div>
+        <div class="precio-final"><sup>$</sup>20</div>
+        <div class="precio-pago-unico">Pago único · Acceso inmediato</div>
+        <span class="precio-ahorro">
+          <i class="fas fa-tag"></i> Ahorras $30 — 60% de descuento
+        </span>
+      </div>
+
+      
+
+      <!-- 
+        ╔════════════════════════════════════════════════════╗
+        ║  INSTRUCCIÓN — BOTÓN DE H:                  ║
+        ╚════════════════════════════════════════════════════╝
+      -->
+      <a href="https://pay.hotmart.com/L104571041A" class="btn-comprar" target="_blank" rel="noopener">
+        <i class="fas fa-shopping-cart"></i>
+        Comprar ahora por $20
+        <i class="fas fa-arrow-right" style="margin-left:auto;font-size:0.9rem;opacity:0.7"></i>
+      </a>
+
+      <div class="precio-card-garantias">
+        <div class="garantia-item">
+          <i class="fas fa-download"></i>
+          Descarga inmediata
+        </div>
+        <div class="garantia-item">
+          <i class="fas fa-infinity"></i>
+          Acceso de por vida
+        </div>
+        <div class="garantia-item">
+          <i class="fas fa-lock"></i>
+          Pago seguro
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       FAQ
+       ================================================ -->
+  <section class="seccion-faq" id="faq">
+    <div style="text-align:center;">
+      <div class="seccion-label reveal">Preguntas frecuentes</div>
+      <h2 class="seccion-titulo reveal delay-1">¿Tienes dudas?</h2>
+    </div>
+
+    <div class="faq-wrap">
+
+      <div class="faq-item reveal">
+        <div class="faq-pregunta">
+          <span>¿Necesito saber programar para usar este proyecto?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-respuesta">
+          <div class="faq-respuesta-inner">
+            No. El proyecto está construido únicamente con HTML y CSS, que no son lenguajes de programación. La guía explica cada parte desde cero, pensada específicamente para principiantes. Solo necesitas instalar Visual Studio Code y Live Server, y la guía te lleva paso a paso.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-pregunta">
+          <span>¿Puedo usar este proyecto para mi tarea universitaria?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-respuesta">
+          <div class="faq-respuesta-inner">
+            Sí, con un ajuste importante: el proyecto es de referencia académica. Debes personalizarlo — cambiar los textos, colores, imágenes y temática — para adaptarlo a tu asignación específica. La guía incluye un capítulo dedicado a cómo hacer esas adaptaciones en menos de una hora.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-pregunta">
+          <span>¿Qué recibo exactamente al comprar?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-respuesta">
+          <div class="faq-respuesta-inner">
+            Recibes dos archivos descargables: (1) La guía en formato .pdf con 12 capítulos y código real del proyecto, y (2) el proyecto completo comprimido en .zip, listo para descomprimir, abrir y adaptar según lo requieras en VS Code. Todo de forma inmediata al completar la compra.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-pregunta">
+          <span>¿El proyecto funciona solo con HTML y CSS, sin JavaScript?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-respuesta">
+          <div class="faq-respuesta-inner">
+            Sí, el 100% del proyecto funciona sin una sola línea de JavaScript. Los efectos hover del menú, las animaciones de entrada, el zoom de imágenes, la validación del formulario y hasta el mensaje de confirmación al enviar — todo se logra con CSS puro. Ideal para asignaciones que solo piden HTML y CSS.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-pregunta">
+          <span>¿Puedo adaptar el proyecto a una temática diferente a biblioteca?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-respuesta">
+          <div class="faq-respuesta-inner">
+            Claro que SÍ. La guía incluye 7 ideas concretas de adaptación: turismo, portafolio personal, etc. La estructura de carpetas, el CSS y el diseño responsive funcionan exactamente igual con cualquier temática. Solo cambias y adaptas textos, colores e imágenes.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-pregunta">
+          <span>¿Cómo descargo el producto después de pagar?</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-respuesta">
+          <div class="faq-respuesta-inner">
+            Hotmart entrega el acceso automáticamente al email que uses para la compra. En cuestión de minutos recibes el enlace de descarga. 
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================
+       FOOTER
+       ================================================ -->
+  <footer>
+    <div class="footer-logo">
+      <i class="fas fa-book-open"></i>
+      Programación Web Aplicada
+    </div>
+    <p>
+      Un proyecto universitario real, convertido en guía para que
+      tú no tengas que empezar desde cero. HTML5 + CSS3 · Sin JavaScript.
+    </p>
+    <div class="footer-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#video">Ver video</a>
+      <a href="#incluye">Qué incluye</a>
+      <a href="#temario">Temario</a>
+      <a href="#precio">Comprar</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="footer-copy">
+      <p>© 2026 · Programación Web Aplicada · @programacion.web.aplicada </p>
+      <p>Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- ================================================
+       JAVASCRIPT
+       ================================================ -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
